@@ -7582,6 +7582,8 @@ i {
   text-align: right;
   color: #FFFFFF;
   font-size: 16px;
+  vertical-align: middle;
+  background-position: center;
 }
 /* carusel */
 #carousel {
@@ -7640,7 +7642,7 @@ text-decoration:none;
 display:block;
 padding:9px;
 width:35px;
-font-weight: bold;
+font-weight:
 }
 
 a#prev:hover, a#next:hover {
