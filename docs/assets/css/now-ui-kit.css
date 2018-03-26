@@ -7577,6 +7577,7 @@ i {
   color: #FFFFFF;
   background-color: #5AA897;
   padding: 5px 10px;
+  line-height: 2em;
 }
 .img-section {
   text-align: right;
@@ -7588,7 +7589,7 @@ i {
 /* carusel */
 #carousel {
 position: relative;
-width:60%;
+width:75%;
 margin:0 auto;
 }
 
@@ -7621,7 +7622,7 @@ position: relative;
     margin: 0 auto;
     display: block;
     position: relative;
-    top: 40px;
+    top: 5px;
     width: 100%;
 }
 
@@ -7631,9 +7632,10 @@ float:right;
 }
 
 #buttons a {
+font-family: Concert One;
 text-align:center;
 display:block;
-font-size:50px;
+font-size:40px;
 float:left;
 outline:0;
 margin:0 60px;
@@ -7642,7 +7644,7 @@ text-decoration:none;
 display:block;
 padding:9px;
 width:35px;
-font-weight:
+font-weight: bold;
 }
 
 a#prev:hover, a#next:hover {
@@ -7656,12 +7658,12 @@ padding: 5px 20px;
 }
 
 .quote-phrase {
-height: 200px;
+height: 100px;
 font-size:24px;
 font-style:italic;
 }
 .quote-phrase a{
-  color: #FFFFFF;
+  color: #aeaeae;
 }
 .quote-marks {
 font-size:30px;
@@ -7681,4 +7683,19 @@ height: 30px;
 .quoteContainer, .authorContainer {
 display: table;
 width: 100%;
+}
+.carousel {
+  background-color: #f7f7f7;
+}
+p {
+  font-size: 16px;
+}
+.img-center {
+  text-align: center;
+}
+.active {
+  background-color: rgba(222, 222, 222, 0.3);
+}
+.img-round {
+  border-radius: 50%;
 }
