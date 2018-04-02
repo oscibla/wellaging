@@ -26,6 +26,32 @@
 
   gtag('config', 'UA-116374834-1');
 </script>
+<!--Cookie alert-->
+<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#ffffff",
+      "text": "#5c7291"
+    },
+    "button": {
+      "background": "#5aa897",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-right",
+  "content": {
+    "message": "Diese Website verwendet Cookies. ",
+    "dismiss": "OK",
+    "link": "mehr",
+    "href": "http://wellaging-blank.de/impressum"
+  }
+})});
+</script>
 </head>
 
 <body class="landing-page sidebar-collapse">
@@ -152,27 +178,7 @@
         <h2 class="title">Kontakt</h2>
         <div class="row">
             <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
-              <form class="" action="index.html" method="post">
-                <div class="input-group input-lg">
-                    <span class="input-group-addon">
-                        <i class="fa fa-user"></i>
-                    </span>
-                    <input type="text" class="form-control" placeholder="Name">
-                </div>
-                <div class="input-group input-lg">
-                    <span class="input-group-addon">
-                        <i class="fa fa-envelope"></i>
-                    </span>
-                    <input type="text" class="form-control" placeholder="Email">
-                </div>
-                <div class="textarea-container">
-                    <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Nachricht"></textarea>
-                </div>
-                <small>Durch Senden erklären Sie sich mit unserer <a href="../impressum">Datenschutzerklärung</a> und den Nutzungunsbedingungen und der Datenschutzerklärung von unserem Dienst <a href="#">Formspree</a> einverstanden. </small>
-                <div class="send-button">
-                    <a href="#pablo" class="btn btn-primary btn-round btn-block btn-lg">Senden</a>
-                </div>
-              </form>
+
             </div>
         </div>
     </div>
