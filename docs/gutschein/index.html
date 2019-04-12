@@ -65,7 +65,7 @@ window.cookieconsent.initialise({
     <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
         <div class="container">
                 <a class="navbar-brand" href="http://wellaging-blank.de/">
-                    <img src="../assets/img/wa-logo.png" alt="das körperwerk" >
+                    <img src="../assets/img/wa-logo.svg" alt="wellaging by das körperwerk">
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
@@ -78,19 +78,75 @@ window.cookieconsent.initialise({
                         <a class="nav-link" href="../"><i class="fa fa-home" ></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-neutral" href="../termin" style="text-transform: uppercase;">
-                            <i class="fa fa-calendar"></i> Termin
+                        <a class="nav-link site-active" href="../cupping">
+                            Cupping
                             <p class="d-lg-none d-xl-none"></p>
                         </a>
                     </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="../microneedling">
+                            Microneedling
+                            <p class="d-lg-none d-xl-none"></p>
+                        </a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="../carbonpeeling">
+                            Carbon-Peeling
+                            <p class="d-lg-none d-xl-none"></p>
+                        </a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="../akupunktur">
+                            Kosmetische Akupunktur
+                            <p class="d-lg-none d-xl-none"></p>
+                        </a>
+                    </li>
+					<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../termin">Preise</a>
+            <a class="dropdown-item" href="../termin">Terminbuchung</a>
+          </div>
+        </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- End Navbar -->
+	<!-- Action Buttons-->
+	<div class="action-buttons">
+		<a href="tel:033150588558">
+			<button class="btn btn-primary btn-icon btn-round btn-lg btn-action btn-action-icon mobile-only" data-toggle="tooltip" data-placement="top" title="Anruf">
+				<i class="fa fa-phone fa-2x" style="color: white!important;"></i>
+			</button>
+		</a>
+		<a href="https://api.whatsapp.com/send?phone=4933150588558" target="_blank">
+			<button class="btn btn-primary btn-icon btn-round btn-lg btn-action btn-action-icon mobile-only" data-toggle="tooltip" data-placement="top" title="Nachricht schreiben">
+				<i class="fa fa-whatsapp fa-2x" style="color: white!important;"></i>
+			</button>
+		</a>
+		<a href="mailto:info@daskoerperwerk.de">
+			<button class="btn btn-primary btn-icon btn-round btn-lg btn-action btn-action-icon desktop-only" data-toggle="tooltip" data-placement="top" title="Mail schreiben">
+				<i class="fa fa-envelope fa-2x" style="color: white!important;"></i>
+			</button>
+		</a>
+		<a href="https://www.google.com/maps/place/Anti-Aging+Potsdam+und+Medical+Beauty+-+wellaging+by+das+k%C3%B6rperwerk/@52.4017478,13.0547676,17z/data=!3m1!4b1!4m5!3m4!1s0x47a8f51e73fe26bd:0xd3baba91369a7a2b!8m2!3d52.4017478!4d13.0569563" target="_blank">
+			<button class="btn btn-primary btn-icon btn-round btn-lg btn-action btn-action-icon" data-toggle="tooltip" data-placement="top" title="Navigation">
+				<i class="fa fa-location-arrow fa-2x" style="color: white!important;"></i>
+			</button>
+		</a>
+		<a href="../termin">
+			<button class="btn btn-primary btn-round btn-action btn-lg" data-toggle="tooltip" data-placement="top" title="Termin vereinbaren">
+				<b>TERMIN</b>
+			</button>
+		</a>
+	</div>
+	<!--End Action Buttons-->
     <div class="wrapper">
         <div class="page-header page-header-small">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('../assets/img/wow.jpg');">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('../assets/img/gallery/001.jpg'); background-position: top">
             </div>
             <div class="container">
                 <div class="content-center">
@@ -101,24 +157,83 @@ window.cookieconsent.initialise({
 <!--Content-->
   <div class="section">
     <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <h4><span class="over-img">Verschenken Sie Schönheit!</span></h4>
-        <img class="img-responsive" src="../assets/img/gutschein.jpg" alt="Abbildung des Gutscheins"><br><br><br>
-        <!--<div class="shariff" data-info-url="http://ct.de/-2467514">
-        </div>-->
-      </div>
-      <div class="col-lg-4">
-        <div class="product product-spec">
-          <h5>Überschrift</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="row">
+        <div class="col-lg-7">
+          <h4> <span class="over-img">Ein Geschenk </span><br><span class="over-img">der besonderen Art...</span></h4>
+          <p>Schnell und unkompliziert einen Gutschein für unsere Behandlungen online bestellen. <br>Bitte gib den Wunschbetrag ein, der Gutschein wird am folgenden Werktag versandt. Nach Zahlungseingang ist dieser sofort gültig. <br>
+          Alternativ kannst Du Dir natürlich auch im Laden einen Gutschein holen und bezahlen. </p>
         </div>
+        <div class="col-lg-5">
+          <br><br><br>
+          <img src="../assets/img/gutschein-teaser.png" alt="Gutschein ohnetattoo">
+        </div>
+      </div>
+      <div class="text-center">
+        <h4>Gutschein online bestellen</h4>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <form method="POST" action="https://formspree.io/info@ohnetattoo.com">
+          <b>Besteller </b><br>
+            <div class="form-group">
+              <input class="form-control" type="text" name="Name" placeholder="Dein Name" required>
+            </div>
+            <div class="form-group">
+              <input class="form-control" name="_replyto" placeholder="Deine eMail" type="email" required>
+            </div>
+            <br>
+          <b>Gutschein </b><br>
+            <div class="form-group">
+              <input id="inputWert" class="form-control" type="number" name="Wert" min="10" max="2000" step="1" placeholder="Wert" required>
+            </div>
+            Nach der Bearbeitung Deiner Bestellung bekommst Du eine Bestätigung und die Daten zur Überweisung per Mail (kann bis zu 12h dauern). Der Gutschein wird per Post an die angegebene Adresse versandt und ist erst nach Erhalt der Zahlung gültig.
+        </div>
+        <div class="col-lg-6">
+          <b>Lieferadresse des Gutscheins </b><br>
+            <div class="form-group">
+              <input class="form-control" type="text" name="Vorname" placeholder="Vorname" required>
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="text" name="Nachname" placeholder="Nachname" required>
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="text" name="Adresse" placeholder="Adresse" required>
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="text" name="Postleitzahl" placeholder="Postleitzahl" required>
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="text" name="Ort" placeholder="Ort" required>
+            </div>
+            <small>Zustellungen nur innerhalb Deutschlands möglich. </small>
+            <div class="form-group">
+              <textarea class="form-control" name="Anmerkungen" placeholder="Anmerkungen"></textarea>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" required>
+                Ich erkläre mich mit der <a href="http://daskoerperwerk.de/datenschutz">Datenschutzerklärung von das körperwerk</a> und von unserem, zur Formularnutzung notwendigen Dienst <a href="http://docs.formspree.io/files/privacy.pdf" target="_blank">Formspree</a> und <a href="https://sendgrid.com/policies/privacy/services-privacy-policy/" target="_blank">SendGrid</a> einverstanden. Meine Daten werden von ohnetattoo.com zur Auftragsbearbeitung und für Rückfragen gespeichert. Dem stimme ich zu. Sie können jederzeit die Löschung Ihrer persönlichen Daten einfordern, kontaktieren Sie uns dazu einfach.
+                <span class="form-check-sign">
+                  <span class="check"></span>
+                </span>
+              </label>
+            </div>
+            <input type="hidden" name="_next" value="http://ohnetattoo.com/erfolgreich" />
+            <input type="hidden" name="_subject" value="wellaging Gutscheinbestellung" />
+            <input type="hidden" name="_format" value="plain" />
+            <button class="btn btn-primary" type="submit"><i class="fa fa-shopping-cart" style="color: white;"></i>  Bestellen</button>
+          </form>
+        </div>
+        <div class="col-lg-12 text-center">
+          <br><br>
+          <p style="color: #a0a0a0!important">
+            <!--<i class="fa fa-paypal" style="color: #a0a0a0"></i> Paypal  |   --> <i class="fa fa-money" style="color: #a0a0a0"></i> Überweisung
+          </p>
+        </div>
+      </div>
       </div>
     </div>
   </div>
-
-  </div>
-</div>
 <!--Footer-->
 <div class="gfooter">
   <iframe src="../gfooter.html"
